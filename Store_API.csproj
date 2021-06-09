@@ -32,7 +32,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Store_Shared\Store_Shared.csproj" />
+    <Reference Include="Store_Shared">
+      <HintPath>Store_Shared.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
